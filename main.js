@@ -11,7 +11,10 @@ $(function () {
 	}
 	$(".note-input").change(
 		function(e){
-			guardar("item-" + $(this).attr("data-id"), $(this).val())
+			guardar("item-" + $(this).attr("data-id"), { 
+				content:$(this).val(),
+				checked:true}
+				)
 		})
 
 	for (var i = 1; i <= $(".note-input").length; i++) {
