@@ -19,7 +19,7 @@ $(function () {
 	}
 
 	function cargar (key){
-		localStorage.getItem(key)
-		return key;
+		
+		return localStorage.getItem(key);
 	}
 });
