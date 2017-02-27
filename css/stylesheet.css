@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "Indie Flower";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Indie Flower"), local("IndieFlower"), url(../fonts/IndieFlower.ttf) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215; }
+h1 {
+  color: #49c19d;
+  font-family: "Indie Flower", cursive;
+  font-size: 60px; }
+
+h2 {
+  color: #f287d2;
+  font-family: "Indie Flower";
+  font-size: 50px; }
+
+.note-input {
+  outline: 0px;
+  border: 0px;
+  border-bottom: 2px #49c19d solid;
+  width: 100%;
+  font-family: "Indie Flower";
+  color: #9432a8;
+  font-size: 30px;
+  padding: 0px; }
+
+.item {
+  margin-bottom: 20px; }
+
+.date {
+  outline: 0px;
+  border: 0px;
+  border-bottom: 2px #49c19d solid;
+  font-family: "Indie Flower";
+  color: #9432a8;
+  font-size: 30px; }
+
+.position-relative {
+  position: relative; }
+
+.checkbox {
+  position: absolute;
+  top: 2;
+  right: 0;
+  padding: 0px; }
+
+.flex-center-both {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+i {
+  padding-right: 20px;
+  color: #f287d2; }
+
+.note-item-color i {
+  color: #49c19d; }
+.note-item-color .note-input {
+  border-bottom-color: #f287d2; }
+
+/*# sourceMappingURL=stylesheet.css.map */
