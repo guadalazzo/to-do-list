@@ -23,7 +23,14 @@ body {
   justify-content: center; }
 
 .hoja {
-  background-color: white; }
+  background-color: white;
+  padding: 20px;
+  width: 60%;
+  border: 2px #9432a8 solid; }
+
+#tasklist {
+  padding: 0;
+  margin: 0; }
 
 .note-input {
   outline: 0px;
@@ -36,7 +43,9 @@ body {
   padding: 0px; }
 
 .item {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  display: inline-block;
+  padding: 0px; }
 
 .date {
   outline: 0px;
@@ -50,18 +59,15 @@ body {
   position: relative; }
 
 .checkbox {
-  transform: translate(10px, 0px);
   display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
+  padding: 0px;
   width: 40px;
   height: 40px;
   border-radius: 20%;
+  margin-left: 10px;
   border: 5px #9432a8 solid;
   font-size: 10px;
-  background-color: white;
-  margin-left: 10px; }
+  background-color: white; }
 
 .flex-center-both {
   display: flex;
