@@ -14,8 +14,16 @@ h2 {
   font-family: "Indie Flower";
   font-size: 50px; }
 
-.back {
+body {
   background-color: #bfa2bd; }
+
+.back {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.hoja {
+  background-color: white; }
 
 .note-input {
   outline: 0px;
@@ -42,6 +50,7 @@ h2 {
   position: relative; }
 
 .checkbox {
+  transform: translate(10px, 0px);
   display: block;
   position: absolute;
   top: 0;
@@ -51,7 +60,8 @@ h2 {
   border-radius: 20%;
   border: 5px #9432a8 solid;
   font-size: 10px;
-  background-color: white; }
+  background-color: white;
+  margin-left: 10px; }
 
 .flex-center-both {
   display: flex;
