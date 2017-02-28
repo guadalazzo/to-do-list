@@ -10,20 +10,15 @@ $(function () {
 		localStorage.setItem(key, value);
 	}
 	$(".note-input").change(
-		function(e){
-			guardar("item-" + $(this).attr("data-id"), { 
-				content:$(this).val(),
-				checked:true}
-				)
-		})
+		
+	function(e){
+		guardar("item-" + $(this).attr("data-id"), $(this).val())
+	})
 
 	for (var i = 1; i <= $(".note-input").length; i++) {
-		if (cargar("item-"+i)==null) {
-			guardar("item-"+i,{content:"",
-				checked:false})
-		}
+		
 		$(".note-input[data-id=" + i + "]").val(
-			cargar("item-"+ i).content
+			cargar("item-"+ i) 
 			)
 	}
 
