@@ -26,4 +26,9 @@ $(function () {
 
 		return localStorage.getItem(key);
 	}
+	$(".checkbox").click(
+		function(){
+			$(this).find("i").toggleClass("fa-check");
+		})
+
 });
